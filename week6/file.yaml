@@ -1,0 +1,26 @@
+file_type: csv
+dataset_name: uk-corporate-data-company-house-2023
+file_name: companies
+table_name: companies_tab
+inbound_delimiter: ";"
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - company_number
+    - company_type
+    - office_address
+    - incorporation_date
+    - jurisdiction
+    - company_status
+    - account_type
+    - company_name
+    - sic_codes
+    - date_of_cessation
+    - next_accounts_overdue
+    - confirmation_statement_overdue
+    - owners
+    - places
+    - average_number_employees_during_period
+    - current_assets
+    - last_accounts_period_end
+    - city_name
